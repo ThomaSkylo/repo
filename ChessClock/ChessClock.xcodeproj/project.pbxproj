@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0A7F5827E6607200A31FAE /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A7F5727E6607200A31FAE /* InitialViewController.swift */; };
+		DF80A5792785F69400DF8497 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF80A5782785F69400DF8497 /* Time.swift */; };
+		DFE5EAF927849C7E009476C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5EAF827849C7E009476C1 /* AppDelegate.swift */; };
+		DFE5EAFB27849C7E009476C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5EAFA27849C7E009476C1 /* SceneDelegate.swift */; };
+		DFE5EAFD27849C7E009476C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5EAFC27849C7E009476C1 /* ViewController.swift */; };
+		DFE5EB0027849C7E009476C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5EAFE27849C7E009476C1 /* Main.storyboard */; };
+		DFE5EB0227849C82009476C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5EB0127849C82009476C1 /* Assets.xcassets */; };
+		DFE5EB0527849C82009476C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5EB0327849C82009476C1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE5EB0C27849C82009476C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE5EAED27849C7E009476C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE5EAF427849C7E009476C1;
+			remoteInfo = ChessClock;
+		};
+		DFE5EB1727849C82009476C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE5EAED27849C7E009476C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE5EAF427849C7E009476C1;
+			remoteInfo = ChessClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF0A7F5727E6607200A31FAE /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		DF80A5782785F69400DF8497 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		DFE5EAF527849C7E009476C1 /* ChessClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ChessClock.app; path = "/Users/vskylo/Desktop/SWIFT/chess/ChessClock/build/Debug-iphoneos/ChessClock.app"; sourceTree = "<absolute>"; };
+		DFE5EAF827849C7E009476C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFE5EAFA27849C7E009476C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFE5EAFC27849C7E009476C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFE5EAFF27849C7E009476C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE5EB0127849C82009476C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE5EB0427849C82009476C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE5EB0627849C82009476C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5EB0B27849C82009476C1 /* ChessClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ChessClockTests.xctest; path = "/Users/vskylo/Desktop/SWIFT/chess/ChessClock/build/Debug-iphoneos/ChessClockTests.xctest"; sourceTree = "<absolute>"; };
+		DFE5EB1627849C82009476C1 /* ChessClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ChessClockUITests.xctest; path = "/Users/vskylo/Desktop/SWIFT/chess/ChessClock/build/Debug-iphoneos/ChessClockUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE5EAF227849C7E009476C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB0827849C82009476C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB1327849C82009476C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0A7F5F27F078EE00A31FAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5EAFC27849C7E009476C1 /* ViewController.swift */,
+				DF0A7F5727E6607200A31FAE /* InitialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF0A7F6327F0790200A31FAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5EAFE27849C7E009476C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF0A7F6427F0791F00A31FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF80A5782785F69400DF8497 /* Time.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFE5EAEC27849C7E009476C1 = {
+			isa = PBXGroup;
+			children = (
+				DFE5EAF727849C7E009476C1 /* ChessClock */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE5EAF727849C7E009476C1 /* ChessClock */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5EAF827849C7E009476C1 /* AppDelegate.swift */,
+				DFE5EAFA27849C7E009476C1 /* SceneDelegate.swift */,
+				DF0A7F6427F0791F00A31FAE /* Model */,
+				DF0A7F6327F0790200A31FAE /* View */,
+				DF0A7F5F27F078EE00A31FAE /* Controller */,
+				DFE5EB0127849C82009476C1 /* Assets.xcassets */,
+				DFE5EB0327849C82009476C1 /* LaunchScreen.storyboard */,
+				DFE5EB0627849C82009476C1 /* Info.plist */,
+			);
+			path = ChessClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE5EAF427849C7E009476C1 /* ChessClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5EB1F27849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClock" */;
+			buildPhases = (
+				DFE5EAF127849C7E009476C1 /* Sources */,
+				DFE5EAF227849C7E009476C1 /* Frameworks */,
+				DFE5EAF327849C7E009476C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessClock;
+			productName = ChessClock;
+			productReference = DFE5EAF527849C7E009476C1 /* ChessClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFE5EB0A27849C82009476C1 /* ChessClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5EB2227849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClockTests" */;
+			buildPhases = (
+				DFE5EB0727849C82009476C1 /* Sources */,
+				DFE5EB0827849C82009476C1 /* Frameworks */,
+				DFE5EB0927849C82009476C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE5EB0D27849C82009476C1 /* PBXTargetDependency */,
+			);
+			name = ChessClockTests;
+			productName = ChessClockTests;
+			productReference = DFE5EB0B27849C82009476C1 /* ChessClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFE5EB1527849C82009476C1 /* ChessClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5EB2527849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClockUITests" */;
+			buildPhases = (
+				DFE5EB1227849C82009476C1 /* Sources */,
+				DFE5EB1327849C82009476C1 /* Frameworks */,
+				DFE5EB1427849C82009476C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE5EB1827849C82009476C1 /* PBXTargetDependency */,
+			);
+			name = ChessClockUITests;
+			productName = ChessClockUITests;
+			productReference = DFE5EB1627849C82009476C1 /* ChessClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE5EAED27849C7E009476C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DFE5EAF427849C7E009476C1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DFE5EB0A27849C82009476C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DFE5EAF427849C7E009476C1;
+					};
+					DFE5EB1527849C82009476C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DFE5EAF427849C7E009476C1;
+					};
+				};
+			};
+			buildConfigurationList = DFE5EAF027849C7E009476C1 /* Build configuration list for PBXProject "ChessClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE5EAEC27849C7E009476C1;
+			productRefGroup = DFE5EAEC27849C7E009476C1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE5EAF427849C7E009476C1 /* ChessClock */,
+				DFE5EB0A27849C82009476C1 /* ChessClockTests */,
+				DFE5EB1527849C82009476C1 /* ChessClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE5EAF327849C7E009476C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5EB0527849C82009476C1 /* LaunchScreen.storyboard in Resources */,
+				DFE5EB0227849C82009476C1 /* Assets.xcassets in Resources */,
+				DFE5EB0027849C7E009476C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB0927849C82009476C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB1427849C82009476C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE5EAF127849C7E009476C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A7F5827E6607200A31FAE /* InitialViewController.swift in Sources */,
+				DFE5EAFD27849C7E009476C1 /* ViewController.swift in Sources */,
+				DF80A5792785F69400DF8497 /* Time.swift in Sources */,
+				DFE5EAF927849C7E009476C1 /* AppDelegate.swift in Sources */,
+				DFE5EAFB27849C7E009476C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB0727849C82009476C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5EB1227849C82009476C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE5EB0D27849C82009476C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE5EAF427849C7E009476C1 /* ChessClock */;
+			targetProxy = DFE5EB0C27849C82009476C1 /* PBXContainerItemProxy */;
+		};
+		DFE5EB1827849C82009476C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE5EAF427849C7E009476C1 /* ChessClock */;
+			targetProxy = DFE5EB1727849C82009476C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFE5EAFE27849C7E009476C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5EAFF27849C7E009476C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE5EB0327849C82009476C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5EB0427849C82009476C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE5EB1D27849C82009476C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE5EB1E27849C82009476C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE5EB2027849C82009476C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE5EB2127849C82009476C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFE5EB2327849C82009476C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessClock.app/ChessClock";
+			};
+			name = Debug;
+		};
+		DFE5EB2427849C82009476C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessClock.app/ChessClock";
+			};
+			name = Release;
+		};
+		DFE5EB2627849C82009476C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChessClock;
+			};
+			name = Debug;
+		};
+		DFE5EB2727849C82009476C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomsk.ChessClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChessClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE5EAF027849C7E009476C1 /* Build configuration list for PBXProject "ChessClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5EB1D27849C82009476C1 /* Debug */,
+				DFE5EB1E27849C82009476C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5EB1F27849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5EB2027849C82009476C1 /* Debug */,
+				DFE5EB2127849C82009476C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5EB2227849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5EB2327849C82009476C1 /* Debug */,
+				DFE5EB2427849C82009476C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5EB2527849C82009476C1 /* Build configuration list for PBXNativeTarget "ChessClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5EB2627849C82009476C1 /* Debug */,
+				DFE5EB2727849C82009476C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE5EAED27849C7E009476C1 /* Project object */;
+}
