@@ -10,4 +10,4 @@ ByteCoin is a project completed during the attendance of the 'Complete iOS App D
 It is a simple app which makes a web API call, gets the current Bitcoin price and displays it on screen in the currency the user chooses.
 
 ChessClock folder, as the name implies, contains a chess clock :-). Being a chess and technology enthusiast at the same time, I tried to make 
-my own version of a functional chess clock. So each player taps his/her side whenever he/she make a move.   
+my own version of a functional chess clock. So each player taps his/her side whenever he/she makes a move.   
